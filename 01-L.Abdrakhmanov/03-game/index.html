@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <table oncontextmenu="return false;">
+    <tr>
+        <td class="upperspace">
+            <div>
+                <button class="timer" onclick="ms_reset()">Reset</button>
+                <p>Time:</p>
+                <p id="timer">000</p>
+                <button class="flagger" id="flagger" onclick="make_flagged()"><img src="./mine.gif" alt="M" style="vertical-align: middle"></button>
+            </div>
+        </td>
+    </tr>
+    <tr>
+    <td>
+        <table class="field" id="field">
+            
+        </table>
+    </td>
+    </tr>
+    <tr>
+    <td class="lowerspace">
+        <div>
+            <p>Size: </p>
+            <input type="text" value="9" id="wid">
+            <p>×</p>
+            <input type="text" value="10" id="hei">
+        </div>
+        <div>
+            <p>Mines:</p>
+            <input type="text" value="12" id="mines">
+            <p><img src="./mine.gif" alt="M"></p>
+        </div>
+        <div>
+            <p>Flags:</p>
+            <p id="flags">12</p>
+            <p><img src="./flag.gif" alt="M"></p>
+        </div>
+        <button onclick="change_vars(document.getElementById('wid').value, document.getElementById('hei').value, document.getElementById('mines').value)">Apply</button>
+    </td>
+    </tr>
+    </table>
+<script src="./script.js"></script>
+</body>
+</html>

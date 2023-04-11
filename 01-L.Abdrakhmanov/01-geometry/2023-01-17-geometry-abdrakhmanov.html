@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="/2023-01-17-geometry-abd.css"> -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+</head>
+<body>
+    <h1>Решение задачи #517529</h1>
+    <h2>Подготовил Абдрахманов Леонид 11-1
+    </h2>
+    <hr>
+    
+    <h2>Дано:</h2>
+    <p>\(Р/б \space трапеция \space ABCD\)</p>
+    <p>\(с \space основаниями \space [AD] \space и \space [BC];\space |AD| = 2|BC|\)</p>
+    <!-- <p>\(|AD| = 2|BC|\)</p> -->
+    <p>\(В \space ней \space точка \space M:\space \widehat{ABM}=90° ∧ \widehat{DCM}=90°\)</p>
+    <h2>а)</h2>
+    <p>\((!) \space\space |AM|=|BM|\)</p>
+    <h2>б)</h2>
+    <p>\(Найти \space \widehat{BAD}, \space если \space \widehat{CDA}=50°,\)</p>
+    <p>\(а \space высота, \space проведённая \space из \space M \space к \space[AD] \space равна |BC|\)</p>
+    <div style="border-radius: 30px; border-color: black; width:500px">
+        <a href="./geogebra-export.html"><img src="./geogebra-export.svg" alt="Image" width="100%" height="auto-render"></a>
+    </div>
+    <hr>
+
+    <h2>Решение п.а)</h2>
+    <p>\(Пусть \space E=[AB)\cap[DC)\)</p>
+    <p>\(Пусть\space H \space—\space сер–на \space [AD]\)</p>
+    <br>
+    <p>\(Рассмотрим \space \triangle AED:\)</p>
+    <p>\([BM] \space–\space серединный \space перпендикуляр\)</p>
+    <p>\([CM] \space–\space серединный \space перпендикуляр\)</p>
+    <p>\(Тогда \space [HM] \space–серединный \space перпендикуляр \space в \space \triangle AED \space\Rightarrow\)</p>
+    <p>\(\Rightarrow\space |AM|=|DM|\)</p>
+    <div style="border-radius: 30px; border-color: black; width:500px">
+        <a href="./geogebra-export-a.html"><img src="./geogebra-export-a.svg" alt="Image A" width="100%" height="auto-render"></a>
+    </div>
+    <hr>
+
+    <h2>Решение п.б)</h2>
+    <p>\(|MH|=ρ(M,[AD])=|BC|=\frac{|AD|}{2}\Rightarrow\)</p>
+    <p>\(\Rightarrow|MH|=|AH|=|DH|\Rightarrow\)</p>
+    <p>\(\Rightarrow в\space \triangle AMD: \space \widehat{M}=90°\)</p>
+    <br>
+    <p>\(M \space—\space точка\spaceпересечения\)</p>
+    <p>\(сер–х \space перп–в \space в \space \triangle AED \Rightarrow\)</p>
+    <p>\(\Rightarrow M \space—\space центр \space вписанной \space окр–ти \space в \space \triangle AED\)</p>
+    <br>
+    <p>\(Тогда \space из \space теоремы \space о \space вписанном \space угле:\)</p>
+    <p>\(\widehat{AED}=\widehat{AMD}/2=\frac{90°}{2}=45°\)</p>
+    <br>
+    <p>\(Рассмотрим \space \triangle AEB:\)</p>
+    <p>\(\widehat{E}=45°\)</p>
+    <p>\(\widehat{D}=50° \space (из \space усл)\)</p>
+    <p>\(Тогда \space \space из \space суммы \space углов \space в \space треугольнике:\)</p>
+    <p>\(\widehat{BAD}=\widehat{EAD}=\widehat{A}=180°-50°-45°=85°\)</p>
+    <div style="border-radius: 30px; border-color: black; width:500px">
+        <a href="./geogebra-export-b.html"><img src="./geogebra-export-b.svg" alt="Image B" width="100%" height="auto-render"></a>
+    </div>
+    <p>\(Ответ: \space \widehat{BAD}=85°\)</p>
+    <hr>
+</body>
+</html>

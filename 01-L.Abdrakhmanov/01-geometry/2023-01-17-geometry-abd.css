@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(230, 182, 182);
+}
+
+.container {
+    background-color: rgb(168, 144, 114);
+    align-self: center;
+    align-items: center;
+}
